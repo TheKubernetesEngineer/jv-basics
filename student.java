@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class student {
 public static void main(String[] args)
 {
@@ -9,6 +11,9 @@ String studentFirstName = "Kayla";
 String studentLastName = "Hammon";
 char studentFirstInitial = studentFirstName.charAt(0);
 char studentLastInitial = studentLastName.charAt(0);
+System.out.println("What is the GPA Update ?");
+Scanner input = new Scanner(System.in);
+studentGPA = input.nextDouble();
 System.out.println(studentAge);
 System.out.println(studentGPA);
 System.out.println(hasPerfectAttendance);
